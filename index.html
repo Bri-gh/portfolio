@@ -216,35 +216,46 @@
     
 <section id="contact" class="bg-[#0b1120] text-white py-20 px-4">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+
+    <div>
+          <h4 class="font-bold text-blue-900 mb-2">About Bright</h4>
+          <p>
+            Bright is a frontend web developer passionate <br>about building clean, responsive, and user-friendly <br>websites. With a strong grasp of HTML, CSS, JavaScript,<br> and modern frameworks, he turns ideas into <br>engaging digital experiences.
+          </p>
+        </div>
     
     <!-- Left Column: Contact Info -->
-    <div class="md:w-1/2 space-y-6">
-      <h3 class="text-3xl font-semibold mb-4">Get In Touch</h3>
-      <div class="flex items-center gap-3">
-        <i class="fas fa-envelope text-blue-400"></i>
-        <a href="brightdev44@gmail.com"><span>brightdev44@gmail.com</span></a>
-      </div>
-      <div class="flex items-center gap-3">
-        <i class="fas fa-map-marker-alt text-blue-400"></i>
-        <span>Ogun, Nigeria</span>
-      </div>
-
-      <h4 class="text-xl font-semibold mt-6">Follow Me</h4>
-      <div class="flex gap-4 text-2xl">
-        <a href="https://t.me/Ola4wd" class="hover:text-blue-400"><i class="fa-brands fa-telegram"></i></a>
-        <a href="https://wa.me/2349064178956" class="hover:text-blue-400"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://x.com/Johnson4861952" class="hover:text-blue-400"><i class="fa-brands fa-x-twitter"></i></a>
-      </div>
+<div class="md:w-1/2 space-y-6 flex flex-col sm:flex-row sm:gap-12">
+  <!-- Contact Info -->
+  <div>
+    <h3 class="text-3xl font-semibold mb-4">Get In Touch</h3>
+    <div class="flex items-center gap-3 mb-2">
+      <i class="fas fa-envelope text-blue-400"></i>
+      <a href="mailto:brightdev44@gmail.com" class="text-blue-600 underline">brightdev44@gmail.com</a>
     </div>
+    <div class="flex items-center gap-3">
+      <i class="fas fa-map-marker-alt text-blue-400"></i>
+      <span>Ogun, Nigeria</span>
+    </div>
+  </div>
 
-    <!-- Right Column: Contact Form -->
-    <form class="md:w-1/2 space-y-4" action="#" method="POST">
-      <input type="text" placeholder="Name" class="w-full p-3 rounded-lg bg-white text-gray-900" required />
-      <input type="email" placeholder="Email Address" class="w-full p-3 rounded-lg bg-white text-gray-900" required />
-      <input type="text" placeholder="Subject" class="w-full p-3 rounded-lg bg-white text-gray-900" />
-      <textarea placeholder="Enter Your Message" class="w-full p-3 h-40 rounded-lg bg-white text-gray-900" required></textarea>
-      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition">Send Message</button>
-    </form>
+  <!-- Social Links -->
+  <div>
+    <h4 class="text-xl font-semibold mb-2">Connect</h4>
+    <div class="flex gap-4 text-2xl">
+      <a href="https://t.me/Ola4wd" target="_blank" class="hover:text-blue-400" aria-label="Telegram">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://wa.me/2349064178956" target="_blank" class="hover:text-green-500" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://x.com/Johnson4861952" target="_blank" class="hover:text-blue-400" aria-label="X / Twitter">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
     
   </div>
 </section>
